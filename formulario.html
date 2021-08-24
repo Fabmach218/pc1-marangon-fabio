@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <title>Formulario</title>
+</head>
+<body>
+    
+    <h1>Formulario de registro</h1>
+
+    <div class="container">
+
+        <div class="col-3">
+
+            <form action="confirmacion.html" method="post">
+
+                <div class="form-group row">
+                    <label>Nombre</label>
+                    <input type="text" class="form-control" name="Nombre" required>
+                </div>
+
+                <div class="form-group row">
+                    <label>Apellido paterno</label>
+                    <input type="text" class="form-control" name="Ape_Pat" required>
+                </div>
+
+                <div class="form-group row">
+                    <label>Apellido materno</label>
+                    <input type="text" class="form-control" name="Ape_Mat" required>
+                </div>
+
+                <div class="form-group row">
+                    <label>Sexo</label>
+                    <select class="form-control" name="Sexo" required>
+                        <option value="">-</option>
+                        <option value="H">Hombre</option>
+                        <option value="M">Mujer</option>
+                        <option value="N">Prefiero no especificar</option>
+                    </select>
+                </div>
+
+                <div class="form-group row">
+                    <label>Correo electrónico</label>
+                    <input type="text" class="form-control" name="Correo" required>
+                </div>
+
+                <div class="form-group row">
+                    <label>Teléfono de contacto</label>
+                    <input type="text" class="form-control" name="Telefono" required>
+                </div>
+
+                <div class="form-group row">
+                    <label>Distrito</label>
+                    <select class="form-control" name="Distrito" required>
+                        <option value="">-</option>
+                        <option value="A">Distrito A</option>
+                        <option value="B">Distrito B</option>
+                        <option value="C">Distrito C</option>
+                        <option value="D">Distrito D</option>
+                    </select>
+                </div>
+
+                <div class="form-group row">
+                    <label>Dirección</label>
+                    <input type="text" class="form-control" name="Direccion" required>
+                </div>
+
+                <div class="form-group row">
+                    <label>Nombre de la Mascota</label>
+                    <input type="text" class="form-control" name="Nombre_Mascota" required>
+                </div>
+
+                <div class="form-group row">
+                    <label>Tipo de mascota</label>
+                    <select class="form-control" name="Tipo" required>
+                        <option value="">-</option>
+                        <option value="P">Perro</option>
+                        <option value="G">Gato</option>
+                        <option value="H">Hámster</option>
+                    </select>
+                </div>
+                
+                <div class="form-group row">
+                    <button class="btn btn-primary">Registrar</button>
+                </div>
+
+            </form>
+
+
+        </div>
+
+    </div>
+
+
+
+</body>
+</html>
